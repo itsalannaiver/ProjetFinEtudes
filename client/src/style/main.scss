@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+*:focus {
+  outline: none;
+}
+
+.css-1auk9te {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 48%;
+}
+
+body {
+  width: 100%;
+  height: auto;
+}
+
+button {
+  border: none;
+  outline: none;
+  color: inherit;
+  background: none;
+  cursor: pointer;
+}
+
+.MainContentContainer {
+  position: sticky;
+  width: 83vw;
+  height: 130vh;
+  margin-left: 17%;
+}
+
+@import "_NavBar.scss";
+@import "_HeroSection.scss";
+@import "_LogIn.scss";
+@import "_DotedSection.scss";
+@import "_Actualite.scss";
+@import "_Lecole.scss";
+@import "_ContactUs.scss";
+@import "_Footer.scss";
+@import "_SideBar.scss";
+@import "_Exercises.scss";
+@import "_CoursList.scss";

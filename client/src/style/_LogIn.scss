@@ -1,0 +1,231 @@
+.logedInfo {
+  position: relative;
+  height: 15vw;
+  width: 15vw;
+  margin-right: 3vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  animation: reverse_side 1.7s alternate;
+}
+
+.userInfo {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  img {
+    height: 3vw;
+    width: 3vw;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.24);
+  }
+}
+
+#ArrowDropDownCircleOutlinedIcon {
+  color: black;
+  margin-top: 0.4vw;
+  margin-right: 1.8vw;
+  cursor: pointer;
+  background-color: white;
+  border-radius: 50%;
+  box-shadow: 0 0 3px rgba(22, 22, 22, 0.418);
+  &:active {
+    box-shadow: none;
+  }
+}
+
+#userNames {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  font-size: 0.7vw;
+  color: black;
+
+  h1 {
+    margin-left: 0.3vw;
+  }
+}
+.nameGroupe {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 1vw;
+}
+#userGroup {
+  position: relative;
+  font-size: 1vw;
+  color: #646464;
+  font-weight: lighter;
+}
+
+#userMenu {
+  font-size: 1.2vw;
+  color: rgb(41, 41, 41);
+}
+#userMenu:hover {
+  color: rgb(114, 114, 114);
+}
+
+.userLogin {
+  display: none;
+  position: absolute;
+  top: 5vw;
+  right: 4.5vw;
+  height: 27.5vw;
+  width: 27.5vw;
+  display: flex;
+  border-radius: 0.5vw;
+  background: white;
+  animation: drop 0.5s alternate;
+  h1 {
+    text-align: center;
+    margin-top: 8%;
+    margin-bottom: 5%;
+    color: black;
+    font-size: 2vw;
+    font-weight: bold;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+
+    #Submit {
+      font-family: Helvetica, sans-serif;
+      color: white;
+      background: #3d3d3d;
+      top: 1vw;
+      left: 8.3%;
+      width: 83%;
+      height: 3.5vw;
+      font-size: 1vw;
+      cursor: pointer;
+      margin-bottom: 1vw;
+    }
+
+    #Submit:hover {
+      background: rgb(40, 149, 233);
+    }
+
+    #Submit:active {
+      background: #646464;
+    }
+
+    h4 {
+      a {
+        color: blue;
+        font-weight: lighter;
+        font-size: 1vw;
+      }
+      a:hover {
+        color: rgb(79, 79, 255);
+      }
+    }
+  }
+  box-shadow: 0.1px 0.5px 5px lightslategrey;
+}
+
+@keyframes reverse_side {
+  0% {
+    opacity: 0;
+    transform: translateX(80px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+
+.DashboarlogedInfo {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 22vw;
+  .DashboarduserInfo {
+    display: flex;
+    flex-direction: column;
+    right: 4.5vw;
+    height: 10.3vw;
+    width: 2.5vw;
+    display: flex;
+    border-radius: 1vw;
+    animation: drop 0.5s alternate;
+    align-items: center;
+    margin-top: -7vw;
+    img {
+      width: 6vw;
+      height: 6vw;
+      border-radius: 100%;
+    }
+  }
+}
+
+#DashboarduserNames {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  h1 {
+    font-size: 1.3vw;
+    margin-top: 0.8vw;
+    margin-right: 0.1vw;
+    margin-left: 0.1vw;
+  }
+}
+
+#DashboarduserGroup {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  color: white;
+  font-size: 1vw;
+  font-weight: lighter;
+}
+
+.logOut {
+  position: absolute;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  padding: 2vw 5vw;
+  border-radius: 0.5vw;
+  box-shadow: 0 0 2px rgba(20, 20, 20, 0.349);
+  margin-left: 0.7vw;
+  margin-top: 11vw;
+  animation: drop 0.5s ease;
+}
+
+.LogedDash {
+  position: relative;
+  display: flex;
+  height: auto;
+  flex-direction: column;
+  margin-right: 2.8vw;
+}
+
+#userMenu,
+#logoutButton {
+  color: black;
+  &:hover {
+    color: #646464;
+  }
+}
+
+.logoutButton {
+  margin-bottom: 1vw;
+}
+
+.MuiButton-containedPrimary {
+  background-color: #141414;
+  &:hover {
+    background: rgb(40, 149, 233);
+  }
+}

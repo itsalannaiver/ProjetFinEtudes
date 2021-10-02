@@ -1,0 +1,47 @@
+.Footer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 15vw;
+  width: 100%;
+}
+
+.social {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  img {
+    margin-right: 4vw;
+    height: 2vw;
+    width: 2vw;
+    cursor: pointer;
+  }
+}
+
+.footer-menu {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 2vw;
+  .links {
+    margin-right: 4vw;
+  }
+  a {
+    color: rgb(87, 87, 87);
+    font-size: 1.3vw;
+  }
+  a:hover {
+    color: rgb(88, 73, 224);
+  }
+}
+
+.copyright {
+  margin-top: 3vw;
+  font-size: 1vw;
+  color: rgb(80, 80, 80);
+}

@@ -1,0 +1,201 @@
+.ExerciseContainer {
+  height: 100%;
+  width: 70vw;
+  display: block;
+  padding: 3vw 3vw;
+}
+
+.ExerciseList,
+.CoursList {
+  margin-top: 5vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+
+.ListExercises,
+.ListCours {
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+  height: 10vw;
+  box-shadow: 0 0 4px rgba(22, 22, 22, 0.404);
+  padding: 1vw 1vw;
+  margin-bottom: 1vw;
+  border-radius: 0.5vw;
+  &:hover {
+    box-shadow: 0 0 7px rgba(27, 90, 184, 0.733);
+  }
+}
+
+.ExerciseTitle,
+.CoursTitle {
+  text-align: left;
+  text-decoration: none;
+  font-size: 1.5vw;
+  color: rgb(77, 77, 77);
+}
+
+.ExerciseDate,
+.CoursDate {
+  text-align: left;
+  font-size: 1vw;
+  color: rgb(54, 54, 54);
+  margin-bottom: 1vw;
+}
+
+.ExerciseDescrip,
+.CoursDescrip {
+  text-align: left;
+  font-size: 1.15vw;
+  color: rgb(92, 92, 92);
+}
+
+#PathDirection {
+  font-size: 1vw;
+  font-weight: lighter;
+  color: rgb(41, 41, 41);
+}
+
+.ExerciceHolder,
+.CoursHolder {
+  width: 70vw;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+}
+
+.ExerciceContent,
+.CoursContent {
+  width: 65vw;
+}
+
+#AddButton {
+  margin-top: 5vw;
+}
+
+.addExercise {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.AddExerciceForm {
+  margin-top: 1.3vw;
+  width: 72.3%;
+  padding: 2.5vw;
+  display: flex;
+  flex-direction: column;
+  border-radius: 0.5vw;
+  box-shadow: 0 0 4px rgba(39, 39, 39, 0.295);
+  animation: drop 0.3s ease;
+}
+
+.MuiSelect-selectMenu {
+  height: 100vw;
+}
+
+.ProfQuestionContainer {
+  padding: 0 1vw 2vw 1vw;
+  border: 0.1vw solid rgba(36, 36, 36, 0.507);
+  border-radius: 0.5vw;
+  margin-bottom: 1vw;
+}
+
+#LesQuestions {
+  margin-top: 2vw;
+}
+
+#AddQuestionButton {
+  position: relative;
+  margin-left: 47.5vw;
+  margin-top: -2vw;
+}
+
+#DeleteQuestion {
+  margin-top: -24.5vw;
+  margin-left: 49vw;
+}
+
+.DisplayExerciceContainer {
+  height: auto;
+  width: 70vw;
+  padding: 5vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  h1 {
+    text-align: center;
+    margin-bottom: 2vw;
+    margin-top: -2vw;
+    letter-spacing: 0.15vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(70, 70, 70);
+  }
+}
+
+.DescriptionContainer,
+.QuestionContainer {
+  height: auto;
+  padding: 1.5vw;
+  line-height: 1.5vw;
+  border: 0;
+  border-radius: 0.5vw;
+  box-shadow: 0 0 4px rgba(26, 26, 26, 0.479);
+}
+.DescriptionContainer {
+  margin-bottom: 2.5vw;
+  p {
+    letter-spacing: 0.08vw;
+    line-height: 1.8vw;
+  }
+}
+
+.QuestionContainer {
+  margin-bottom: 1.5vw;
+  p {
+    font-size: 0.9vw;
+    font-weight: lighter;
+    letter-spacing: 0.15vw;
+  }
+}
+
+#QuestionHint {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#UploadButton {
+  position: absolute;
+  left: 0;
+  margin-left: 2.6vw;
+  margin-top: -0.5vw;
+}
+
+#ButtonValider {
+  position: relative;
+  margin-left: 30vw;
+}
+
+#contained-button-file {
+  margin-left: 1vw;
+  font-size: 1.2vw;
+}
+
+#DownloadIcon {
+  position: absolute;
+  margin-top: 8.5vw;
+  margin-left: 59.5vw;
+}
+
+#ButtonValiderCours {
+  margin-left: 41vw;
+}
+
+#StarsIcon {
+  position: absolute;
+  margin-left: 60vw;
+}

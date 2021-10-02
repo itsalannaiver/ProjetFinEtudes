@@ -1,0 +1,6 @@
+export const SAVEID = "SAVEID";
+export const SAVEMODULEID="SAVEMODULEID";
+export const SAVEEXOID="SAVEEXOID";
+export const TIMEOUT="TIMEOUT";
+export const REFRESHEXO="REFRESHEXO";
+export const REFRESHCOURS="REFRESHCOURS";

@@ -1,0 +1,81 @@
+.ContactUs {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 60vw;
+  z-index: 1000;
+}
+
+.TextArea {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  margin-right: 4vw;
+  animation: scale 5s ease-in-out 0s infinite normal both;
+
+  h1 {
+    font-size: 2.5vw;
+    text-transform: uppercase;
+    color: rgb(73, 73, 73);
+  }
+  p {
+    font-size: 1vw;
+    color: rgb(94, 94, 94);
+  }
+  img {
+    margin-top: 2vw;
+    width: 30vw;
+    height: 25vw;
+  }
+}
+
+.ContactUsArea {
+  margin-left: 4vw;
+  form {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: flex-start;
+  }
+  input,
+  textarea {
+    margin-bottom: 1.5vw;
+    border: none;
+    background-color: rgb(236, 236, 236);
+    border-radius: 0.3vw;
+    font-size: 1vw;
+    padding-inline-start: 1vw;
+    width: 33vw;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.144);
+  }
+  textarea {
+    padding-top: 0.9vw;
+    height: 10vw;
+    max-width: 33vw;
+    min-width: 33vw;
+    max-height: 15vw;
+    min-height: 10vw;
+  }
+  input {
+    height: 3.5vw;
+  }
+  #envoyer {
+    width: 10vw;
+    padding-right: 0.7vw;
+    text-align: center;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+  }
+  #envoyer:hover {
+    background: rgb(40, 149, 233);
+  }
+  #envoyer:active {
+    background: rgb(53, 53, 53);
+  }
+}
